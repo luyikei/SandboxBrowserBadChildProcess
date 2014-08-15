@@ -15,6 +15,11 @@ public:
     explicit SBBadChild(QWidget *parent = 0);
     ~SBBadChild();
 
+private slots:
+    void on_startAllMemoryButton_clicked();
+
+    void on_startAllThread_clicked();
+
 private:
     Ui::SBBadChild *ui;
 };

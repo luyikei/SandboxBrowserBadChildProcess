@@ -16,14 +16,50 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>130</x>
-     <y>130</y>
+     <x>110</x>
+     <y>20</y>
      <width>91</width>
      <height>51</height>
     </rect>
    </property>
    <property name="text">
     <string>I'm a bad child !</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startAllMemoryButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>240</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start All Memory</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startAllThread">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>240</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start All Thread</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>231</width>
+     <height>171</height>
+    </rect>
    </property>
   </widget>
  </widget>
